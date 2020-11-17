@@ -1,12 +1,12 @@
 [[redirects]]
   from = "https://store--nfab.netlify.app"
   to = "https://storetheme.vtex.com:"
-  status = 301
+  status = 200
   force = true
     
 [[redirects]]
   from = "https://store--nfab.netlify.app/*"
   to = "https://storetheme.vtex.com/:splat"
-  status = 301
+  status = 200
   force = true
   headers = {X-Forwarded-Host="storecomponents.myvtexprod.com", cache-control="no-cache", pragma="no-cache"}
