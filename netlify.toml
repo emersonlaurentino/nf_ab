@@ -3,7 +3,8 @@
   to = "https://storetheme.vtex.com:"
   status = 200
   force = true
-    
+  headers = {X-Forwarded-Host="storecomponents.myvtexprod.com", cache-control="no-cache", pragma="no-cache"}
+
 [[redirects]]
   from = "https://store--nfab.netlify.app/*"
   to = "https://storetheme.vtex.com/:splat"
